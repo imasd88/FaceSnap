@@ -1,0 +1,7 @@
+#Thu Oct 05 12:18:00 AEDT 2017
+base.0=C\:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_47918f9f6e685716b59c3e4c2a838c66f84cd2d5
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_85af18cbef3064452ec94d8f58024817e079fb0b\\classes.dex
+base.1=C\:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_85af18cbef3064452ec94d8f58024817e079fb0b
+file.0=C\:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_47918f9f6e685716b59c3e4c2a838c66f84cd2d5\\classes.dex

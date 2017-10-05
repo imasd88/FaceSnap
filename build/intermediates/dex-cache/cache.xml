@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.8\55a1aa1cdcfd06b9950ca856e2bc2790e105146a\dagger-2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\dagger-2.8_0a20a409249ad1af20cc4eb99c02a865fb666421.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_0a48198526e282d410582dd4f04c3994424bc578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_fb1cc86cc2db8af744bcddbfed7d3233bf9a9331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_177f26899a0e4bdfbc548636e2f934212356090a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_d8800dab0959f4346911fe5031e8b9058cea8c61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_744b56cb38dcd376586dac464e01d97399580651.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_85af18cbef3064452ec94d8f58024817e079fb0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_4eec3a3201b95ef1219c2877940e99f4a2860a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\02baa59a568217343df55764bf5d56ae2f4195ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_c81893663672607c376d6c1130d4106c99c2ad7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\55cb38626c8d74f110fa2f69c9f07b8fa792158c\output\jars\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d1290b08ec8e8f36bad7cc0dbf48841f65367d99">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\gson-2.2.4_57c8cbe45708bed625dbd49869c616f66ead5fa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\d3480aef832d0b49480307e1701566194f384662\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_513259a47a3a9ee68254beb918ab5fe54030bbf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_504487f2a38340a201ce04988966cc75d08b7e7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\afbf787e74cbdf882748a69dcd0c30f59f2bba37\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_7f50b0cfa91fe42d573b3fad05b0a60222dc6847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_6bbcf7956699529786cd727e737e8ffec4d732f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\72022e00678d6eda42f48b547660a5470bc3ad09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_c18f77f6287b3a77afc21160122aa08740d5df3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\55cb38626c8d74f110fa2f69c9f07b8fa792158c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b408a5702ee298c88146d8bc667f52bb96c32730">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_68d695b6163fd9b4554a4b984b1a249b57e57765.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2cddde189b9877087094128966b71156b0ef84e9">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_47918f9f6e685716b59c3e4c2a838c66f84cd2d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.android\build-cache\87ba0b446cbe95065d6267bcc342b294db5ef726\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\classes_c40259f3c36cf2daf421e08e73f4397a3f4ef611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ahmed\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\pre-dexed\debug\javax.inject-1_3a604dc6b8e1144f618c0647e48c13db63d84d0c.jar" />
+    </item>
+
+</items>
