@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml
@@ -35,7 +35,7 @@ MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\55cb38626
 	android:name
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:14:22-62
 application
-ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:17:5-31:19
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:17:5-32:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\72022e00678d6eda42f48b547660a5470bc3ad09\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\87ba0b446cbe95065d6267bcc342b294db5ef726\output\AndroidManifest.xml:29:5-20
@@ -73,6 +73,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:28:27-74
+activity#facesnap.emazdoor.com.facesnap.SocialActivity
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:31:9-52
+	android:name
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml:31:19-49
 uses-sdk
 INJECTED from C:\Users\Ahmed\Downloads\FaceSnap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:21:5-23:78

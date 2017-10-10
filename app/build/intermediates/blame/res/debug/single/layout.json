@@ -156,6 +156,10 @@
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image.xml",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\src\\main\\res\\layout\\activity_image.xml"
+    },
+    {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_top_base.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\layout\\activity_top_base.xml"
     },

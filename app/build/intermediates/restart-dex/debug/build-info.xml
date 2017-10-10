@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507166774349"
+    timestamp="1507603457997"
     token="-901821901310623683"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1032" />
+        duration="1007" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="17" />
     <task
         name="verifier"
-        duration="5" />
+        duration="3" />
 
     <artifact
         location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1507165810577"
+        timestamp="1507601604789"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -70,21 +70,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507166275503"
+        timestamp="1507603221770"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507166774349"
+        timestamp="1507603457997"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Ahmed\Downloads\FaceSnap\app\build\intermediates\split-apk\debug\slices\slice_4.apk"

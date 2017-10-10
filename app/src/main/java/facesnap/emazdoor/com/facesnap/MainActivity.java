@@ -15,33 +15,6 @@ import android.widget.ImageView;
 
 import java.io.File;
 import java.io.IOException;
-//import android.support.v7.app.AppCompatActivity;
-//import android.os.Bundle;
-//
-//import com.qihancloud.opensdk.base.BindBaseActivity;
-//import com.qihancloud.opensdk.beans.FuncConstant;
-//import com.qihancloud.opensdk.function.unit.MediaManager;
-//import com.qihancloud.opensdk.function.unit.interfaces.media.MediaListener;
-//import com.qihancloud.opensdk.function.unit.interfaces.media.MediaStreamListener;
-
-//public class MainActivity extends BindBaseActivity {
-//
-//    MediaManager mediaManager;
-//
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
-//
-//        mediaManager = (MediaManager) getUnitManager(FuncConstant.MEDIA_MANAGER);
-//
-//
-//    }
-//
-//    @Override
-//    protected void onMainServiceConnected() {
-//
-//    }
-//}
 
 public class MainActivity extends Activity {
 
@@ -63,31 +36,27 @@ public class MainActivity extends Activity {
 
         // Here, we are making a folder named picFolder to store
         // pics taken by the camera using this application.
-        final String dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/picFolder/";
-        File newdir = new File(dir);
-        newdir.mkdirs();
-
         Button capture = (Button) findViewById(R.id.btnCapture);
         image = (ImageView) findViewById(R.id.imageView);
 
         capture.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                // Here, the counter will be incremented each time, and the
-                // picture taken by camera will be stored as 1.jpg,2.jpg
-                // and likewise.
-                count++;
-                String file = dir + count + ".jpg";
-                File newfile = new File(file);
+                //Here images will be saved in the dir as
+                //time in millisecs.
+                File dir = new File(Environment.getExternalStorageDirectory() + "/DCIM/FaceSnap");
+                String file = System.currentTimeMillis() + ".jpg";
+                File filename = new File(Environment.getExternalStorageDirectory() + "/DCIM/FaceSnap", file);
                 boolean flag = false;
                 try {
-                    flag = newfile.createNewFile();
+                    if (!dir.exists())
+                        dir.mkdirs();
+                    flag = filename.createNewFile();
                 } catch (IOException e) {
                     System.out.println(flag);
                 }
 
-                outputFileUri = Uri.fromFile(newfile);
-
+                outputFileUri = Uri.fromFile(filename);
                 Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUri);
 
@@ -99,8 +68,18 @@ public class MainActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         if (requestCode == TAKE_PHOTO_CODE && resultCode == RESULT_OK) {
-            Bitmap mphoto = (Bitmap) data.getExtras().get("data");
-            image.setImageBitmap(mphoto);
+//            try {
+//
+//                Bitmap capturedImage = MediaStore.Images.Media.getBitmap(getContentResolver(), outputFileUri);
+//                image.setImageBitmap(capturedImage);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+
+            Intent intent = new Intent(getApplicationContext(), SocialActivity.class);
+            intent.putExtra("image", outputFileUri.toString());
+            startActivity(intent);
+
             Log.d("CameraDemo", "Pic saved");
         }
     }
