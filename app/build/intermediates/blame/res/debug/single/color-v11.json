@@ -1,10 +1,18 @@
 [
     {
+        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

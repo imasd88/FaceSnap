@@ -3,24 +3,28 @@ package facesnap.emazdoor.com.facesnap;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StrictMode;
 import android.provider.MediaStore;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
 import java.io.File;
 import java.io.IOException;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity implements Animation.AnimationListener {
 
     int TAKE_PHOTO_CODE = 0;
-    public static int count = 0;
-    ImageView image;
+    ImageView logoImage;
+    Button capture;
     Uri outputFileUri;
 
     /**
@@ -36,8 +40,14 @@ public class MainActivity extends Activity {
 
         // Here, we are making a folder named picFolder to store
         // pics taken by the camera using this application.
-        Button capture = (Button) findViewById(R.id.btnCapture);
-        image = (ImageView) findViewById(R.id.imageView);
+        capture = (Button) findViewById(R.id.captureButton);
+        logoImage = (ImageView) findViewById(R.id.profile_image);
+        capture.setVisibility(View.GONE);
+
+        Animation animateLogo = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move_logo_up);
+        animateLogo.setFillAfter(true);
+        animateLogo.setAnimationListener(this);
+        logoImage.startAnimation(animateLogo);
 
         capture.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -68,19 +78,35 @@ public class MainActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         if (requestCode == TAKE_PHOTO_CODE && resultCode == RESULT_OK) {
-//            try {
-//
-//                Bitmap capturedImage = MediaStore.Images.Media.getBitmap(getContentResolver(), outputFileUri);
-//                image.setImageBitmap(capturedImage);
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
 
+            Bitmap bitmap = BitmapFactory.decodeFile(Utils.getImagePath(outputFileUri, MainActivity.this));
+
+            outputFileUri = Utils.getImageUri(MainActivity.this, bitmap);
             Intent intent = new Intent(getApplicationContext(), SocialActivity.class);
             intent.putExtra("image", outputFileUri.toString());
             startActivity(intent);
 
             Log.d("CameraDemo", "Pic saved");
         }
+    }
+
+    @Override
+    public void onAnimationStart(Animation animation) {
+
+    }
+
+    @Override
+    public void onAnimationEnd(Animation animation) {
+        capture.setAlpha(0f);
+        capture.setVisibility(View.VISIBLE);
+
+        int mediumAnimateTime = getResources().getInteger(android.R.integer.config_mediumAnimTime);
+
+        capture.animate().alpha(1f).setDuration(mediumAnimateTime).setListener(null);
+    }
+
+    @Override
+    public void onAnimationRepeat(Animation animation) {
+
     }
 }
