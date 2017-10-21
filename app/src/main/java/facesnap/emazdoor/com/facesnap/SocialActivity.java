@@ -49,6 +49,12 @@ public class SocialActivity extends Activity {
     private ProgressBar progressBar;
     Bitmap capturedImage;
     ImageView _image;
+    String tweetMsg = "#Exaptec #Robotics #GartnerSYM #Gartner_Events  #SanBot #Telepresence #RandD " +
+            "#ExaptecCSLAM " +
+            "#RoboticCloudSolutions " +
+            "#ExaptecRaaS " +
+            "#SensorFusion ";
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -87,8 +93,7 @@ public class SocialActivity extends Activity {
             progressBar.setVisibility(View.VISIBLE);
             socialAuthAdapter = new SocialAuthAdapter(new ResponseListener(
                     ((BitmapDrawable) _image.getDrawable()).getBitmap(),
-                    "#Exaptec #Robotics #GartnerSYM #Gartner_Events #Tech #SanBot #Telepresence #Education #AustralianBuisness #AppDeveloper  " +
-                            "#Inspiring #Future #Cute #Cool #Legit"));
+                    tweetMsg));
             // Add Twitter to set as provider to post on twitter
             socialAuthAdapter.addProvider(SocialAuthAdapter.Provider.TWITTER, R.drawable.twitter);
             // this line is for Authorize start
@@ -126,7 +131,7 @@ public class SocialActivity extends Activity {
         public void onError(SocialAuthError error) {
             // this method is call when error is occured in authorization
 //            if (progressBar != null && progressBar.isActivated())
-                progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.GONE);
             Log.d("ShareTwitter", "Authentication Error: " + error.getMessage());
         }
 
@@ -134,7 +139,7 @@ public class SocialActivity extends Activity {
         public void onCancel() {
             // this method is call when user cancel Authentication
 //            if (progressBar != null && progressBar.isActivated())
-                progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.GONE);
             Log.d("ShareTwitter", "Authentication Cancelled");
         }
 
@@ -142,7 +147,7 @@ public class SocialActivity extends Activity {
         public void onBack() {
             // this method is call when user backpressed from dialog
 //            if (progressBar != null && progressBar.isShown())
-                progressBar.setVisibility(View.GONE);
+            progressBar.setVisibility(View.GONE);
             Log.d("ShareTwitter", "Dialog Closed by pressing Back Key");
         }
     }
@@ -161,20 +166,20 @@ public class SocialActivity extends Activity {
                 if (status.intValue() == 200 || status.intValue() == 201
                         || status.intValue() == 204) {
 //                    if (progressBar != null && progressBar.isActivated())
-                        progressBar.setVisibility(View.GONE);
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(SocialActivity.this, "Image Uploaded",
                             Toast.LENGTH_SHORT).show();
                     finish();
                 } else {
 //                    if (progressBar != null && progressBar.isActivated())
-                        progressBar.setVisibility(View.GONE);
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(SocialActivity.this, "Image not Uploaded",
                             Toast.LENGTH_SHORT).show();
                 }
 
             } catch (NullPointerException e) {
 //                if (progressBar != null && progressBar.isActivated())
-                    progressBar.setVisibility(View.GONE);
+                progressBar.setVisibility(View.GONE);
                 Toast.makeText(SocialActivity.this, "Image not Uploaded",
                         Toast.LENGTH_SHORT).show();
             }

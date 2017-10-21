@@ -1,136 +1,136 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:3:5-45
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:15:5-67
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CAMERA
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:7:5-65
-MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:14:5-65
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:14:5-65
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:8:5-79
-MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:8:22-76
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:8:22-76
 uses-feature#android.hardware.camera.any
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:10:5-12:35
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:10:5-12:35
 	android:required
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:12:9-32
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:12:9-32
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:11:9-51
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:11:9-51
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:13:5-15:36
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:13:5-15:36
 	android:required
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:15:9-33
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:14:9-57
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:14:9-57
 application
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:18:5-35:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19c2a58091e3b2874d6c8b8f552b87c749c91739\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\07bb03251542110a1435f197a2765a7837161524\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\stell\.android\build-cache\3ec8107fe301aada7090d9a339253e56581d4ffa\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fdcec294f434f05c0f02e97981ca2f1077aad1b2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fd4dd22b15ba72cdc8f8ffa33782a7d1a9e75d05\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\36f2a129bdd23ba33a4c74cb0542a68f9816ba7f\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\ac6968b14926636bd9748880c2eabd61d212e542\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\0625d4044420abb3cda28e8795bfb9cfb5040213\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stell\.android\build-cache\a1074f544bfa327dbf405884ce964cc13046c41e\output\AndroidManifest.xml:9:5-20
-MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:17:5-20:19
-MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\stell\.android\build-cache\df03fc7ea70371d028f270f0bbce8fc7d9070a01\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:18:5-35:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\72022e00678d6eda42f48b547660a5470bc3ad09\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\87ba0b446cbe95065d6267bcc342b294db5ef726\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\d3480aef832d0b49480307e1701566194f384662\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\02baa59a568217343df55764bf5d56ae2f4195ad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ahmed\.android\build-cache\afbf787e74cbdf882748a69dcd0c30f59f2bba37\output\AndroidManifest.xml:9:5-20
+MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:17:5-20:19
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Ahmed\.android\build-cache\890b883d574224c856aa3af4f104bceb938cf6b2\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:21:9-41
 	android:supportsRtl
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:23:9-35
 	android:roundIcon
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:22:9-54
 	android:allowBackup
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:20:9-43
 	android:theme
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:24:9-40
 activity#facesnap.emazdoor.com.facesnap.MainActivity
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:29:27-74
 activity#facesnap.emazdoor.com.facesnap.SocialActivity
-ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:32:9-34:66
+ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:32:9-34:66
 	android:theme
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:34:13-63
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:34:13-63
 	android:name
-		ADDED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml:33:13-43
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml:33:13-43
 uses-sdk
-INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19c2a58091e3b2874d6c8b8f552b87c749c91739\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\07bb03251542110a1435f197a2765a7837161524\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\stell\.android\build-cache\3ec8107fe301aada7090d9a339253e56581d4ffa\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fdcec294f434f05c0f02e97981ca2f1077aad1b2\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fd4dd22b15ba72cdc8f8ffa33782a7d1a9e75d05\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\36f2a129bdd23ba33a4c74cb0542a68f9816ba7f\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\ac6968b14926636bd9748880c2eabd61d212e542\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\0625d4044420abb3cda28e8795bfb9cfb5040213\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\stell\.android\build-cache\a1074f544bfa327dbf405884ce964cc13046c41e\output\AndroidManifest.xml:5:5-7:41
-MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\stell\.android\build-cache\df03fc7ea70371d028f270f0bbce8fc7d9070a01\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\72022e00678d6eda42f48b547660a5470bc3ad09\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\87ba0b446cbe95065d6267bcc342b294db5ef726\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\d3480aef832d0b49480307e1701566194f384662\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\02baa59a568217343df55764bf5d56ae2f4195ad\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ahmed\.android\build-cache\afbf787e74cbdf882748a69dcd0c30f59f2bba37\output\AndroidManifest.xml:5:5-7:41
+MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Ahmed\.android\build-cache\890b883d574224c856aa3af4f104bceb938cf6b2\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Users\stell\Documents\GitHub\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ahmed\Downloads\FaceSnap1\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19c2a58091e3b2874d6c8b8f552b87c749c91739\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\07bb03251542110a1435f197a2765a7837161524\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\stell\.android\build-cache\3ec8107fe301aada7090d9a339253e56581d4ffa\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fdcec294f434f05c0f02e97981ca2f1077aad1b2\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\stell\.android\build-cache\fd4dd22b15ba72cdc8f8ffa33782a7d1a9e75d05\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\36f2a129bdd23ba33a4c74cb0542a68f9816ba7f\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\stell\.android\build-cache\ac6968b14926636bd9748880c2eabd61d212e542\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\stell\.android\build-cache\0625d4044420abb3cda28e8795bfb9cfb5040213\output\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\72022e00678d6eda42f48b547660a5470bc3ad09\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\87ba0b446cbe95065d6267bcc342b294db5ef726\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\d3480aef832d0b49480307e1701566194f384662\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\02baa59a568217343df55764bf5d56ae2f4195ad\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\stell\.android\build-cache\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\e6648d72b7212fc418a7c6d1baa6aece761f28ba\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:11:5-76
+ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:11:22-73
+		ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:11:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:12:5-76
+ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:12:5-76
 	android:name
-		ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\stell\.android\build-cache\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\output\AndroidManifest.xml:12:22-73
+		ADDED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\AndroidManifest.xml:12:22-73

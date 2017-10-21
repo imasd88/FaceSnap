@@ -1,382 +1,198 @@
 [
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\twitter.png",
-        "source": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\src\\main\\res\\drawable\\twitter.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_img.png",
-        "source": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\src\\main\\res\\drawable\\camera_img.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\charing.png",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\charing.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\telepres.png",
-        "source": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\src\\main\\res\\drawable\\telepres.png"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\transparent_bg.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_team.png",
-        "source": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\src\\main\\res\\drawable\\app_team.png"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_corner_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\circle_corner_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\transparent_bg.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_corner_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\circle_corner_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blank_circle_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\blank_circle_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exaptec.png",
-        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\src\\main\\res\\drawable\\exaptec.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\transparent_bg.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\body_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\body_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_corner_press_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\red_corner_press_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\twitter.png",
-        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\src\\main\\res\\drawable\\twitter.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_corner_press_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\red_corner_press_bg.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_corner_press_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\red_corner_press_bg.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exaptec.png",
-        "source": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\src\\main\\res\\drawable\\exaptec.png"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\body_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\body_bg.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\charing.png",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\charing.png"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blank_circle_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\d4f1bea4a8998f7fe6994ed418cc8ae1d2a2f471\\output\\res\\drawable\\blank_circle_bg.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\twitter.png",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\drawable\\twitter.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exaptec.png",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\drawable\\exaptec.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blank_circle_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\blank_circle_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\charing.png",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\charing.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_team.png",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\drawable\\app_team.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\body_bg.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\55cb38626c8d74f110fa2f69c9f07b8fa792158c\\output\\res\\drawable\\body_bg.xml"
-    },
-    {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Users\\stell\\Documents\\GitHub\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\stell\\.android\\build-cache\\19eda55eb507b6aee0b1c2796f449b1bdb42dc14\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_img.png",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\drawable\\camera_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_corner_bg.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\\output\\res\\drawable\\circle_corner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\telepres.png",
+        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\drawable\\telepres.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable\\abc_btn_colored_material.xml"
     }
 ]

@@ -75,7 +75,7 @@
         android:layout_height="186dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="-107dp"
+        android:layout_marginTop="-2dp"
         android:src="@drawable/exaptec"
         app:border_width="3dp"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"

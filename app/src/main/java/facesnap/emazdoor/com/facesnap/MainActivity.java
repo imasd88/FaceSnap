@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.StrictMode;
 import android.provider.MediaStore;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -19,6 +20,7 @@ import android.widget.ImageView;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements Animation.AnimationListener {
 
@@ -73,6 +75,16 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
                 startActivityForResult(cameraIntent, TAKE_PHOTO_CODE);
             }
         });
+
+        int[] mbgIds = new int[]{
+                R.drawable.telepres, R.drawable.app_team
+        };
+
+        Random rgenerator = new Random();
+
+        ConstraintLayout constraintLayout = (ConstraintLayout) findViewById(R.id.background);
+        Integer rand = mbgIds[rgenerator.nextInt(mbgIds.length)];
+        constraintLayout.setBackgroundResource(rand);
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
