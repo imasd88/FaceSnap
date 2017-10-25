@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
     Button capture;
     Uri outputFileUri;
 
+    ConstraintLayout constraintLayout;
+
     /**
      * Called when the activity is first created.
      */
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         capture = (Button) findViewById(R.id.captureButton);
         logoImage = (ImageView) findViewById(R.id.profile_image);
         capture.setVisibility(View.GONE);
+
+
 
         Animation animateLogo = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move_logo_up);
         animateLogo.setFillAfter(true);

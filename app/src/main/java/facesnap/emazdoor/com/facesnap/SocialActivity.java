@@ -10,6 +10,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.support.constraint.ConstraintLayout;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +20,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.QuickContactBadge;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.brickred.socialauth.android.DialogListener;
@@ -44,56 +48,78 @@ public class SocialActivity extends Activity {
     Context context;
     private Button btnAuthorizeTwitter;
     private SocialAuthAdapter socialAuthAdapter;
-    //    public static final String PATH = Utils.getPath();
-//    private final int SELECT_IMAGE_FROM_GALLERY = 0, CAPTURE_IMAGE = 1;
     private ProgressBar progressBar;
     Bitmap capturedImage;
     ImageView _image;
-    String tweetMsg = "#Exaptec #Robotics #GartnerSYM #Gartner_Events  #SanBot #Telepresence #RandD " +
+    String tweetMsg = "#Exaptec #Robotics #GartnerSYM #Gartner_Events #SanBot #Telepresence #RandD " +
             "#ExaptecCSLAM " +
             "#RoboticCloudSolutions " +
             "#ExaptecRaaS " +
             "#SensorFusion ";
+    String hashTags = "#Exaptec #GartnerSYM #Gartner_Events #SanBot";
+    ConstraintLayout constraintLayout;
+    private EditText mEditText;
+    private TextView tvWordCount;
+    private static int wordCount = 90;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
-
         context = this;
+        init();
+    }
 
-        _image = (ImageView) findViewById(R.id.capturedImage);
+    public void init() {
+        _image = findViewById(R.id.capturedImage);
         Intent bundle = getIntent();
         final Uri myUri = Uri.parse(bundle.getStringExtra("image"));
-//        Bitmap bitmap = (Bitmap) bundle.getParcelableExtra("image");
         try {
             capturedImage = MediaStore.Images.Media.getBitmap(getContentResolver(), myUri);
             _image.setImageBitmap(capturedImage);
+            _image.setVisibility(View.GONE);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        postIt = (Button) findViewById(R.id.postButton);
-
+        constraintLayout = findViewById(R.id.constrainLayout);
+        constraintLayout.setBackground(new BitmapDrawable(getResources(), capturedImage));
+        postIt = findViewById(R.id.postButton);
+        tvWordCount = findViewById(R.id.wordCount);
+        tvWordCount.setText(String.valueOf(wordCount));
+        mEditText = findViewById(R.id.messageTweet);
+        mEditText.addTextChangedListener(mTextEditorWatcher);
         postIt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 initSocialAdapter();
             }
         });
-
     }
+
+    private final TextWatcher mTextEditorWatcher = new TextWatcher() {
+
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        }
+
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            //This sets a textview to the current length
+            tvWordCount.setText(String.valueOf(wordCount--));
+        }
+
+        public void afterTextChanged(Editable s) {
+        }
+    };
 
     private void initSocialAdapter() {
         // Utils.isOnline method check the internet connection
         if (Utils.isOnline(getApplicationContext())) {
             // Initialize the socialAuthAdapter with ResponseListener
-            progressBar = (ProgressBar) findViewById(R.id.progressBar);
+            progressBar = findViewById(R.id.progressBar);
             progressBar.setVisibility(View.VISIBLE);
             socialAuthAdapter = new SocialAuthAdapter(new ResponseListener(
                     ((BitmapDrawable) _image.getDrawable()).getBitmap(),
-                    tweetMsg));
+                    isCustomMessage(mEditText.getText().toString())));
             // Add Twitter to set as provider to post on twitter
             socialAuthAdapter.addProvider(SocialAuthAdapter.Provider.TWITTER, R.drawable.twitter);
             // this line is for Authorize start
@@ -103,6 +129,15 @@ public class SocialActivity extends Activity {
             Toast.makeText(getApplicationContext(),
                     "Check your internet connection..", Toast.LENGTH_LONG)
                     .show();
+        }
+    }
+
+    private String isCustomMessage(String message) {
+
+        if (message.length() > 0) {
+            return message + " " + hashTags;
+        } else {
+            return tweetMsg;
         }
     }
 

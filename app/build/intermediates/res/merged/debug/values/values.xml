@@ -376,8 +376,13 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -406,6 +411,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
     <dimen name="top_back_btn_height">45dp</dimen>
     <dimen name="top_back_btn_width">70dp</dimen>
     <dimen name="top_battery_font_size">18sp</dimen>
@@ -476,6 +482,7 @@
     <string name="dialog_button_save">Save</string>
     <string name="fail_not_connect_mainservice">尚未与主控建立连接</string>
     <string name="fail_remote_error">远程主控端发生错误</string>
+    <string name="hashTags">#Exaptec #Robotics #GartnerSYM #Gartner_Events #SanBot #Telepresence #RandD #ExaptecCSLAM #RoboticCloudSolutions #ExaptecRaaS #SensorFusion </string>
     <string name="home_top_zigbee_text">ZIGBEE</string>
     <string name="image_posted_on_twitter"> Image posted on twitter successfully. </string>
     <string name="logo_text1">Sanbot</string>

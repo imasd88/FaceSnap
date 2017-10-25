@@ -3,7 +3,7 @@
     package="facesnap.emazdoor.com.facesnap.test" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="16"
         android:targetSdkVersion="21" />
 
     <instrumentation

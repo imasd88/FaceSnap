@@ -2,20 +2,22 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/capturedImage"
         android:layout_width="0dp"
-        android:layout_height="557dp"
+        android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="-129dp"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,13 +30,14 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="200dp"
         android:text="Post"
-        app:layout_constraintBottom_toBottomOf="@+id/capturedImage"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/capturedImage"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintBottom_toBottomOf="@+id/messageTweet"
+        app:layout_constraintLeft_toLeftOf="@+id/verticalGuide2"
+        app:layout_constraintRight_toRightOf="@+id/verticalGuide1"
+        app:layout_constraintTop_toTopOf="@+id/messageTweet"
+        app:layout_constraintVertical_bias="0.078"
+        app:layout_constraintHorizontal_bias="0.502" />
 
 
     <android.support.constraint.Guideline
@@ -69,5 +72,37 @@
         app:layout_constraintTop_toTopOf="@+id/horizontalGuide"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/messageTweet"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/layout_btn_bg"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/hashTags"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuide1"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuide2"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalGuide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        android:maxLength="90"/>
+
+    <TextView
+        android:id="@+id/wordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuide2"
+        app:layout_constraintTop_toBottomOf="@+id/messageTweet"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="248dp" />
 
 </android.support.constraint.ConstraintLayout>
