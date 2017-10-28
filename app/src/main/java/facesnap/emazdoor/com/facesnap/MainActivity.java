@@ -1,9 +1,12 @@
 package facesnap.emazdoor.com.facesnap;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -11,6 +14,7 @@ import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
@@ -22,14 +26,16 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity implements Animation.AnimationListener {
+public class MainActivity extends AppCompatActivity {
 
     int TAKE_PHOTO_CODE = 0;
     ImageView logoImage;
     Button capture;
     Uri outputFileUri;
+    AppCompatTextView logoText;
 
-    ConstraintLayout constraintLayout;
+    private static String FONT_MUSEO_700 = "Museo-700.otf";
+
 
     /**
      * Called when the activity is first created.
@@ -46,14 +52,9 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         // pics taken by the camera using this application.
         capture = (Button) findViewById(R.id.captureButton);
         logoImage = (ImageView) findViewById(R.id.profile_image);
-        capture.setVisibility(View.GONE);
-
-
-
-        Animation animateLogo = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move_logo_up);
-        animateLogo.setFillAfter(true);
-        animateLogo.setAnimationListener(this);
-        logoImage.startAnimation(animateLogo);
+        ((AppCompatTextView) findViewById(R.id.textView)).setTypeface(getFont(this, FONT_MUSEO_700));
+        ((AppCompatTextView) findViewById(R.id.textView2)).setTypeface(getFont(this, FONT_MUSEO_700));
+        ((AppCompatTextView) findViewById(R.id.textView3)).setTypeface(getFont(this, FONT_MUSEO_700));
 
         capture.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -80,15 +81,27 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
             }
         });
 
+
         int[] mbgIds = new int[]{
-                R.drawable.telepres, R.drawable.app_team
+                R.drawable.telepres, R.drawable.app_team, R.drawable.team, R.drawable.nicci, R.drawable.amysanbot
         };
 
         Random rgenerator = new Random();
 
-        ConstraintLayout constraintLayout = (ConstraintLayout) findViewById(R.id.background);
-        Integer rand = mbgIds[rgenerator.nextInt(mbgIds.length)];
-        constraintLayout.setBackgroundResource(rand);
+
+        ConstraintLayout rootView = (ConstraintLayout) findViewById(R.id.background);
+
+
+        Integer u = mbgIds[rgenerator.nextInt(mbgIds.length)];
+        Log.e("123", "IMAGE_GET" + u);
+        rootView.setBackgroundResource(u);
+
+    }
+
+    public static Typeface getFont(Context context, String name) {
+        AssetManager am = context.getApplicationContext().getAssets();
+
+        return Typeface.createFromAsset(am, name);
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -104,25 +117,5 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
 
             Log.d("CameraDemo", "Pic saved");
         }
-    }
-
-    @Override
-    public void onAnimationStart(Animation animation) {
-
-    }
-
-    @Override
-    public void onAnimationEnd(Animation animation) {
-        capture.setAlpha(0f);
-        capture.setVisibility(View.VISIBLE);
-
-        int mediumAnimateTime = getResources().getInteger(android.R.integer.config_mediumAnimTime);
-
-        capture.animate().alpha(1f).setDuration(mediumAnimateTime).setListener(null);
-    }
-
-    @Override
-    public void onAnimationRepeat(Animation animation) {
-
     }
 }
