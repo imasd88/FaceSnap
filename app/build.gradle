@@ -33,7 +33,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     compile(name: 'QihanOpenSdk_1.1.3', ext: 'aar')
     compile 'com.google.dagger:dagger:2.8'
     annotationProcessor "com.google.dagger:dagger-compiler:2.8"
@@ -43,4 +44,5 @@ dependencies {
     compile files('libs/socialauth-4.4.jar')
     compile files('libs/socialauth-android-3.2.jar')
     compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile files('libs/twitter4j-core-4.0.4.jar')
 }

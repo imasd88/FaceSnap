@@ -22,6 +22,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
@@ -29,10 +32,12 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     int TAKE_PHOTO_CODE = 0;
+    @BindView(R.id.profile_image)
     ImageView logoImage;
+    @BindView(R.id.captureButton)
     Button capture;
     Uri outputFileUri;
-    AppCompatTextView logoText;
+
 
     private static String FONT_MUSEO_700 = "Museo-700.otf";
 
@@ -50,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Here, we are making a folder named picFolder to store
         // pics taken by the camera using this application.
-        capture = (Button) findViewById(R.id.captureButton);
-        logoImage = (ImageView) findViewById(R.id.profile_image);
+        ButterKnife.bind(this);
+
         ((AppCompatTextView) findViewById(R.id.textView)).setTypeface(getFont(this, FONT_MUSEO_700));
         ((AppCompatTextView) findViewById(R.id.textView2)).setTypeface(getFont(this, FONT_MUSEO_700));
         ((AppCompatTextView) findViewById(R.id.textView3)).setTypeface(getFont(this, FONT_MUSEO_700));

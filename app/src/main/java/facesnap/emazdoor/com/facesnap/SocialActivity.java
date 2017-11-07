@@ -35,6 +35,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 import static android.R.id.message;
 import static android.content.ContentValues.TAG;
 
@@ -44,23 +47,28 @@ import static android.content.ContentValues.TAG;
 
 public class SocialActivity extends Activity {
 
-    private Button postIt;
+
+    @BindView(R.id.postButton)
+    Button postIt;
     Context context;
-    private Button btnAuthorizeTwitter;
     private SocialAuthAdapter socialAuthAdapter;
-    private ProgressBar progressBar;
+    @BindView(R.id.progressBar)
+    ProgressBar progressBar;
     Bitmap capturedImage;
+    @BindView(R.id.capturedImage)
     ImageView _image;
-    String tweetMsg = "#Exaptec #Robotics #GartnerSYM #Gartner_Events #SanBot #Telepresence #RandD " +
-            "#ExaptecCSLAM " +
-            "#RoboticCloudSolutions " +
-            "#ExaptecRaaS " +
-            "#SensorFusion ";
-    String hashTags = "#Exaptec #GartnerSYM #Gartner_Events #SanBot";
+    String tweetMsg = "#Exaptec #Robotics #RethinkEverything #Innodev" +
+            " #Sanbot #Telepresence #" +
+            "RandD #ExaptecCSLAM " +
+            "#RoboticCloudSolutions #ExaptecRaaS #SensorFusion";
+    String hashTags = "#Exaptec #RethinkEverything #Innodev #Sanbot";
+    @BindView(R.id.constrainLayout)
     ConstraintLayout constraintLayout;
-    private EditText mEditText;
-    private TextView tvWordCount;
-    private static int wordCount = 90;
+    @BindView(R.id.messageTweet)
+    EditText mEditText;
+    @BindView(R.id.wordCount)
+    TextView tvWordCount;
+    private static int wordCount = 96;
 
 
     @Override
@@ -68,11 +76,11 @@ public class SocialActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
         context = this;
+        ButterKnife.bind(this);
         init();
     }
 
     public void init() {
-        _image = findViewById(R.id.capturedImage);
         Intent bundle = getIntent();
         final Uri myUri = Uri.parse(bundle.getStringExtra("image"));
         try {
@@ -82,12 +90,9 @@ public class SocialActivity extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        constraintLayout = findViewById(R.id.constrainLayout);
         constraintLayout.setBackground(new BitmapDrawable(getResources(), capturedImage));
-        postIt = findViewById(R.id.postButton);
-        tvWordCount = findViewById(R.id.wordCount);
         tvWordCount.setText(String.valueOf(wordCount));
-        mEditText = findViewById(R.id.messageTweet);
+
         mEditText.addTextChangedListener(mTextEditorWatcher);
         postIt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,7 +120,6 @@ public class SocialActivity extends Activity {
         // Utils.isOnline method check the internet connection
         if (Utils.isOnline(getApplicationContext())) {
             // Initialize the socialAuthAdapter with ResponseListener
-            progressBar = findViewById(R.id.progressBar);
             progressBar.setVisibility(View.VISIBLE);
             socialAuthAdapter = new SocialAuthAdapter(new ResponseListener(
                     ((BitmapDrawable) _image.getDrawable()).getBitmap(),
