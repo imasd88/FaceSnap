@@ -4,14 +4,6 @@
         "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }

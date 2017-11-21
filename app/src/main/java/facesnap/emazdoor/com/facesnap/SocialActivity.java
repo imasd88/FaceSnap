@@ -3,6 +3,7 @@ package facesnap.emazdoor.com.facesnap;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -39,17 +40,15 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static android.R.id.message;
+import static android.R.id.switch_widget;
 import static android.content.ContentValues.TAG;
 
 /**
  * Created by Ahmed on 10/10/2017.
  */
 
-public class SocialActivity extends Activity {
+public class SocialActivity extends Activity implements View.OnClickListener {
 
-
-    @BindView(R.id.postButton)
-    Button postIt;
     Context context;
     private SocialAuthAdapter socialAuthAdapter;
     @BindView(R.id.progressBar)
@@ -57,18 +56,19 @@ public class SocialActivity extends Activity {
     Bitmap capturedImage;
     @BindView(R.id.capturedImage)
     ImageView _image;
-    String tweetMsg = "#Exaptec #Robotics #RethinkEverything #Innodev" +
-            " #Sanbot #Telepresence #" +
-            "RandD #ExaptecCSLAM " +
-            "#RoboticCloudSolutions #ExaptecRaaS #SensorFusion";
-    String hashTags = "#Exaptec #RethinkEverything #Innodev #Sanbot";
     @BindView(R.id.constrainLayout)
     ConstraintLayout constraintLayout;
     @BindView(R.id.messageTweet)
     EditText mEditText;
     @BindView(R.id.wordCount)
     TextView tvWordCount;
-    private static int wordCount = 96;
+    @BindView(R.id.postButton)
+    Button postIt;
+    @BindView(R.id.cancelButton)
+    Button cancelButton;
+    String tweetMsg = "Having fun at 10th Anniversary Gala at #Innodev #RethinkEverything";
+    String hashTags = "#Innodev #RethinkEverything";
+    private static int wordCount = 113;
 
 
     @Override
@@ -94,12 +94,8 @@ public class SocialActivity extends Activity {
         tvWordCount.setText(String.valueOf(wordCount));
 
         mEditText.addTextChangedListener(mTextEditorWatcher);
-        postIt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                initSocialAdapter();
-            }
-        });
+        postIt.setOnClickListener(this);
+        cancelButton.setOnClickListener(this);
     }
 
     private final TextWatcher mTextEditorWatcher = new TextWatcher() {
@@ -144,6 +140,21 @@ public class SocialActivity extends Activity {
             return tweetMsg;
         }
     }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.postButton:
+                initSocialAdapter();
+                break;
+            case R.id.cancelButton:
+                finish();
+                break;
+            default:
+                break;
+        }
+    }
+
 
     // this ResponseListener class is for getting responce of post uploading
     private class ResponseListener implements DialogListener {

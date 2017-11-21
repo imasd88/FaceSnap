@@ -6,8 +6,9 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#355796"
+    android:background="@drawable/innodev"
     tools:context="facesnap.emazdoor.com.facesnap.MainActivity">
+
 
     <android.support.constraint.Guideline
         android:id="@+id/verticalGuide_1"
@@ -42,8 +43,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.41" />
-    <!--tools:layout_editor_absoluteX="0dp"-->
-    <!--tools:layout_editor_absoluteY="170dp"-->
 
 
     <android.support.constraint.Guideline
@@ -86,8 +85,6 @@
         app:layout_constraintTop_toTopOf="@+id/horizontalGuide_1"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="56dp" />
-    <!--tools:layout_editor_absoluteX="122dp"-->
-    <!--tools:layout_editor_absoluteY="236dp"-->
 
 
     <android.support.v7.widget.AppCompatTextView
@@ -140,7 +137,7 @@
         android:shadowDx="1.5"
         android:shadowDy="1.5"
         android:shadowRadius="2.5"
-        android:text="  from Anywhere"
+        android:text=" from Anywhere"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
         android:textSize="25dp"
         android:visibility="visible"
@@ -163,6 +160,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.84162897" />
-
 
 </android.support.constraint.ConstraintLayout>

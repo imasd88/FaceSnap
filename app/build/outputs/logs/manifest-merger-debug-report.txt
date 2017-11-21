@@ -54,8 +54,8 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Ahmed\.
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ahmed\.android\build-cache\afbf787e74cbdf882748a69dcd0c30f59f2bba37\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:29:5-20
 MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\4eff7be327c09e6934c44f6b5c4f08b7960b8973\output\AndroidManifest.xml:17:5-20:19
 MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Ahmed\.android\build-cache\890b883d574224c856aa3af4f104bceb938cf6b2\output\AndroidManifest.xml:9:5-20
 	android:label
@@ -63,11 +63,11 @@ MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Ahmed\.android\build-c
 	android:supportsRtl
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:23:9-35
 	android:roundIcon
-		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:22:9-46
 	android:allowBackup
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:20:9-41
 	android:theme
 		ADDED from C:\Users\Ahmed\Downloads\FaceSnap1-original\app\src\main\AndroidManifest.xml:24:9-40
 activity#facesnap.emazdoor.com.facesnap.MainActivity
@@ -100,8 +100,9 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Ahmed\.
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\63ae5d26c6cccd105ae567d9180ff75949b27cb3\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\cf1a1a859c228ada3da45cf4ee5e4768dcf36628\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\b16e6303770b56195172a5b005e78060135f7818\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ahmed\.android\build-cache\afbf787e74cbdf882748a69dcd0c30f59f2bba37\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Ahmed\.android\build-cache\f8a98510f52b2fe20a93ce7c473691cd2c168ea3\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Ahmed\.android\build-cache\da776545b9d27f24a142079c195553a74ffea932\output\AndroidManifest.xml:21:5-23:58
 MERGED from [:QihanOpenSdk_1.1.3:] C:\Users\Ahmed\.android\build-cache\4eff7be327c09e6934c44f6b5c4f08b7960b8973\output\AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\Ahmed\.android\build-cache\890b883d574224c856aa3af4f104bceb938cf6b2\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary

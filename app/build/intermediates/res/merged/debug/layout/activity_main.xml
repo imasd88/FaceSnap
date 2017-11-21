@@ -3,11 +3,12 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#355796"
-    android:id="@+id/background"
+    android:background="@drawable/innodev"
     tools:context="facesnap.emazdoor.com.facesnap.MainActivity">
+
 
     <android.support.constraint.Guideline
         android:id="@+id/verticalGuide_1"
@@ -43,6 +44,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.41" />
 
+
     <android.support.constraint.Guideline
         android:id="@+id/horizontalGuide_3"
         android:layout_width="wrap_content"
@@ -57,10 +59,12 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/camera_img"
+        android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalGuide_3"
         app:layout_constraintTop_toTopOf="@+id/horizontalGuide_2"
         tools:background="@android:drawable/presence_invisible"
         tools:backgroundTint="@android:color/white"
@@ -68,18 +72,22 @@
 
     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/profile_image"
-        android:layout_width="179dp"
-        android:layout_height="186dp"
+        android:layout_width="161dp"
+        android:layout_height="166dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="-107dp"
+        android:layout_marginTop="0dp"
         android:src="@drawable/exaptec"
         app:border_width="3dp"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
-        app:layout_constraintTop_toTopOf="@+id/horizontalGuide_1" />
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuide_1"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="56dp" />
 
-    <TextView
+
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,7 +95,7 @@
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
-        android:shadowRadius="2"
+        android:shadowRadius="2.5"
         android:text=" Robotics "
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
         android:textSize="28dp"
@@ -100,7 +108,7 @@
         app:layout_constraintTop_toTopOf="@+id/horizontalGuide_3"
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -108,7 +116,7 @@
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
-        android:shadowRadius="2"
+        android:shadowRadius="2.5"
         android:text="for Work and Play "
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
         android:textSize="25dp"
@@ -119,7 +127,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline"
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -128,8 +136,8 @@
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
-        android:shadowRadius="2"
-        android:text="  from Anywhere"
+        android:shadowRadius="2.5"
+        android:text=" from Anywhere"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
         android:textSize="25dp"
         android:visibility="visible"
@@ -140,18 +148,17 @@
         tools:layout_editor_absoluteY="590dp" />
 
     <android.support.constraint.Guideline
+        android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/guideline"
-        app:layout_constraintGuide_begin="532dp"
-        android:orientation="horizontal" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="532dp" />
 
     <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/guideline2"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.84162897" />
-
 
 </android.support.constraint.ConstraintLayout>

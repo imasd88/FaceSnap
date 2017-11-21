@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\Downloads\FaceSnap1\app\libs\socialauth-4.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a867292683d6086af72c7cac181892e118058989">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\socialauth-4.4_510e35f411cbba34a1ac173d493a9d180ffeb52a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b408a5702ee298c88146d8bc667f52bb96c32730">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\classes_6dee5990237a993f073ead2d593dec04a37de06a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\.android\build-cache\da9d95f1f7e1097a3eee1306b0ff082b04f6427e\output\jars\libs\gson-2.2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d1290b08ec8e8f36bad7cc0dbf48841f65367d99">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\gson-2.2.4_2a5f2d29e5862849d6b00b845b87cdb32acd7077.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\.android\build-cache\890b883d574224c856aa3af4f104bceb938cf6b2\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\classes_e44a4972cd1442b27aeb20dccebde6af1b08af74.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\Downloads\FaceSnap1\app\libs\twitter4j-core-4.0.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f4ac5989c7be37249dfe310bf78ba69773ebce2d">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.4_715151d2d003831959d35ee1f01676d0c16cf421.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\Downloads\FaceSnap1\app\libs\twitter4j-media-support-4.0.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="64727403f32f69ce3a990f031a89f271e35ef0f4">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\twitter4j-media-support-4.0.4_7fb5a6382729688b1435c08abbf2b9987f47c071.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ahmed\Downloads\FaceSnap1\app\libs\socialauth-android-3.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\libs\socialauth-android-3.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="32bae3266a7c49bc7019ef3a868d080cb141f8d3">
-        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1\app\build\intermediates\pre-dexed\debug\socialauth-android-3.2_545182c7cf2b320146694257a0f633a7facc3b19.jar" />
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\2\socialauth-android-3.2_1580f3a64f8385af26dd34cba4fc95989cd59071\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\libs\twitter4j-core-4.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f4ac5989c7be37249dfe310bf78ba69773ebce2d">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\2\twitter4j-core-4.0.4_71672521cbc3f9b5dfdfd9dfe2027c07d6ee121a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\.android\build-cache\f8a98510f52b2fe20a93ce7c473691cd2c168ea3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c35b31afa3eb4b6cf9503a27711ff3757a06eae3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7ac97c11731eecd32d3a8c45abdb6ba049448ce3">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_06c6b4802648bd1dc4cb9ae6367520e54de6abc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1997bfd514d71c44b32f1bd9e3a74379f141cf7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.8.1_23a83c977ce1b6e8cedf10d09c05eb4d2e9e27cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\libs\socialauth-4.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a867292683d6086af72c7cac181892e118058989">
+        <dex dex="C:\Users\Ahmed\Downloads\FaceSnap1-original\app\build\intermediates\transforms\dex\debug\folders\1000\2\socialauth-4.4_0d0dab8aae47b9126eb10f054e785eba904a2838\classes.dex" />
     </item>
 
 </items>

@@ -87,19 +87,19 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        int[] mbgIds = new int[]{
-                R.drawable.telepres, R.drawable.app_team, R.drawable.team, R.drawable.nicci, R.drawable.amysanbot
-        };
-
-        Random rgenerator = new Random();
-
-
-        ConstraintLayout rootView = (ConstraintLayout) findViewById(R.id.background);
-
-
-        Integer u = mbgIds[rgenerator.nextInt(mbgIds.length)];
-        Log.e("123", "IMAGE_GET" + u);
-        rootView.setBackgroundResource(u);
+//        int[] mbgIds = new int[]{
+//                R.drawable.telepres, R.drawable.app_team, R.drawable.team, R.drawable.nicci, R.drawable.amysanbot
+//        };
+//
+//        Random rgenerator = new Random();
+//
+//
+//        ConstraintLayout rootView = (ConstraintLayout) findViewById(R.id.background);
+//
+//
+//        Integer u = mbgIds[rgenerator.nextInt(mbgIds.length)];
+//        Log.e("123", "IMAGE_GET" + u);
+//        rootView.setBackgroundResource(u);
 
     }
 

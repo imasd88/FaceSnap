@@ -33,12 +33,28 @@
         android:layout_marginTop="200dp"
         android:text="Post"
         app:layout_constraintBottom_toBottomOf="@+id/messageTweet"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide2"
         app:layout_constraintRight_toRightOf="@+id/verticalGuide1"
         app:layout_constraintTop_toTopOf="@+id/messageTweet"
-        app:layout_constraintVertical_bias="0.078"
-        app:layout_constraintHorizontal_bias="0.502" />
+        app:layout_constraintVertical_bias="0.093" />
 
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="200dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/messageTweet"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintLeft_toLeftOf="@+id/verticalGuide2"
+        app:layout_constraintRight_toRightOf="@+id/verticalGuide1"
+        app:layout_constraintTop_toTopOf="@+id/messageTweet"
+        app:layout_constraintVertical_bias="0.093" />
 
     <android.support.constraint.Guideline
         android:id="@+id/verticalGuide1"
@@ -81,10 +97,11 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/layout_btn_bg"
         android:ems="10"
-        android:fontFamily="cursive"
+        android:fontFamily="casual"
         android:hint="@string/hashTags"
         android:inputType="textMultiLine"
-        android:textColor="#000000"
+        android:maxLength="113"
+        android:textColor="#FFFFFF"
         android:typeface="serif"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintHorizontal_bias="1.0"
@@ -92,8 +109,7 @@
         app:layout_constraintRight_toLeftOf="@+id/verticalGuide2"
         app:layout_constraintTop_toBottomOf="@+id/horizontalGuide"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
-        android:maxLength="90"/>
+        app:layout_constraintVertical_bias="0.732" />
 
     <TextView
         android:id="@+id/wordCount"

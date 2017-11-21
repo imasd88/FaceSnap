@@ -1,15 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
@@ -20,15 +12,7 @@
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1-original\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ahmed\\Downloads\\FaceSnap1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Ahmed\\.android\\build-cache\\e6648d72b7212fc418a7c6d1baa6aece761f28ba\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]
