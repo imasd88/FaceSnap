@@ -1,5 +1,5 @@
 <resources xmlns:android="http://schemas.android.com/tools">
-    <string name="app_name">FaceSnap</string>
+    <string name="app_name">PixElf</string>
     <string name="twitter_consumer_key">zpFUhmQSidyHsw09702onOn8a</string>
     <string name="twitter_consumer_secret">
         21Ojg5KwPJESLlulfkOxhuQIIQWirBDBCUHY4SiGCOJaBTsyEN
@@ -22,5 +22,10 @@
     <string name="tweet_with_image_text"> dummy tweet with image. </string>
     <string name="tweet_text"> dummy tweet. </string>
     <string name="capture">Capture</string>
-    <string name="hashTags">Having fun at 10th Anniversary Gala at #Innodev #RethinkEverything</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="textview">TextView</string>
+    <string name="apply">apply</string>
+    <string name="shortHashTags">#PixElf</string>
+    <string name="longHashTags">#PixElf #Exaptec</string>
 </resources>

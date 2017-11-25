@@ -1,6 +1,5 @@
 package facesnap.emazdoor.com.facesnap;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -9,7 +8,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.support.constraint.ConstraintLayout;
@@ -17,17 +15,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Random;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +33,11 @@ public class MainActivity extends AppCompatActivity {
     ImageView logoImage;
     @BindView(R.id.captureButton)
     Button capture;
+    @BindView(R.id.settingsButton)
+    ImageButton settingsButton;
+    ConstraintLayout constraintLayout;
     Uri outputFileUri;
+    SlideEffect slideEffect;
 
 
     private static String FONT_MUSEO_700 = "Museo-700.otf";
@@ -57,18 +58,23 @@ public class MainActivity extends AppCompatActivity {
         // pics taken by the camera using this application.
         ButterKnife.bind(this);
 
+        constraintLayout = (ConstraintLayout) findViewById(R.id.background);
+        slideEffect = new SlideEffect();
+        slideEffect.mHandler(constraintLayout);
+
         ((AppCompatTextView) findViewById(R.id.textView)).setTypeface(getFont(this, FONT_MUSEO_700));
         ((AppCompatTextView) findViewById(R.id.textView2)).setTypeface(getFont(this, FONT_MUSEO_700));
         ((AppCompatTextView) findViewById(R.id.textView3)).setTypeface(getFont(this, FONT_MUSEO_700));
 
+
         capture.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                //Here images will be saved in the dir as
-                //time in millisecs.
-                File dir = new File(Environment.getExternalStorageDirectory() + "/DCIM/FaceSnap");
+//                //Here images will be saved in the dir as
+//                //time in millisecs.
+                File dir = new File(AppConstant.IMAGE_LOCATION);
                 String file = System.currentTimeMillis() + ".jpg";
-                File filename = new File(Environment.getExternalStorageDirectory() + "/DCIM/FaceSnap", file);
+                File filename = new File(dir, file);
                 boolean flag = false;
                 try {
                     if (!dir.exists())
@@ -85,22 +91,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(cameraIntent, TAKE_PHOTO_CODE);
             }
         });
+    }
 
 
-//        int[] mbgIds = new int[]{
-//                R.drawable.telepres, R.drawable.app_team, R.drawable.team, R.drawable.nicci, R.drawable.amysanbot
-//        };
-//
-//        Random rgenerator = new Random();
-//
-//
-//        ConstraintLayout rootView = (ConstraintLayout) findViewById(R.id.background);
-//
-//
-//        Integer u = mbgIds[rgenerator.nextInt(mbgIds.length)];
-//        Log.e("123", "IMAGE_GET" + u);
-//        rootView.setBackgroundResource(u);
-
+    @OnClick(R.id.settingsButton)
+    public void setSettingsButton() {
+        startActivity(new Intent(MainActivity.this, Settings.class));
     }
 
     public static Typeface getFont(Context context, String name) {
@@ -122,5 +118,11 @@ public class MainActivity extends AppCompatActivity {
 
             Log.d("CameraDemo", "Pic saved");
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        this.finish();
     }
 }

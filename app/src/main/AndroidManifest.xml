@@ -16,6 +16,7 @@
 
 
     <application
+        android:name=".SlideEffect"
         android:allowBackup="true"
         android:icon="@drawable/exaptec"
         android:label="@string/app_name"
@@ -31,6 +32,8 @@
         <activity
             android:name=".SocialActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Preferences" />
+        <activity android:name=".Settings" />
     </application>
 
 

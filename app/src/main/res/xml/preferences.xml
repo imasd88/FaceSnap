@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Preferences">
+        <EditTextPreference
+            android:defaultValue="@string/longHashTags"
+            android:dialogMessage="Provide a message"
+            android:dialogTitle="Message"
+            android:key="LongHashTags"
+            android:summary=" Long Hash Tags" />
+        <EditTextPreference
+            android:defaultValue="@string/shortHashTags"
+            android:dialogMessage="Provide a message"
+            android:dialogTitle="Message"
+            android:key="ShortHashTags"
+            android:summary=" Short Hash Tags " />
+    </PreferenceCategory>
+</PreferenceScreen>

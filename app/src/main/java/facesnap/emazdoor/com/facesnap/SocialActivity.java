@@ -66,9 +66,9 @@ public class SocialActivity extends Activity implements View.OnClickListener {
     Button postIt;
     @BindView(R.id.cancelButton)
     Button cancelButton;
-    String tweetMsg = "Having fun at 10th Anniversary Gala at #Innodev #RethinkEverything";
-    String hashTags = "#Innodev #RethinkEverything";
-    private static int wordCount = 113;
+    String tweetMsg;
+    String longHashTags;
+    String shortHashTags;
 
 
     @Override
@@ -82,7 +82,12 @@ public class SocialActivity extends Activity implements View.OnClickListener {
 
     public void init() {
         Intent bundle = getIntent();
+        //retrieve the image uri link from bundle
         final Uri myUri = Uri.parse(bundle.getStringExtra("image"));
+        //read preferences here for longHashTags and shortHashTags
+        longHashTags = Utils.getPreferances(this, "LongHashTags");
+        shortHashTags = Utils.getPreferances(this, "ShortHashTags");
+
         try {
             capturedImage = MediaStore.Images.Media.getBitmap(getContentResolver(), myUri);
             _image.setImageBitmap(capturedImage);
@@ -90,22 +95,37 @@ public class SocialActivity extends Activity implements View.OnClickListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //set the captured image as background
         constraintLayout.setBackground(new BitmapDrawable(getResources(), capturedImage));
-        tvWordCount.setText(String.valueOf(wordCount));
+        //default: set predefined Hash Tags to mEditText
+        mEditText.setHint(longHashTags);
 
+        //set the word count
+        //tvWordCount.setText(String.valueOf(wordCount));
+        //disable word limit on default
+        tvWordCount.setVisibility(View.GONE);
+        //assign text observer to mEditText here to limit message to word count
         mEditText.addTextChangedListener(mTextEditorWatcher);
+
         postIt.setOnClickListener(this);
         cancelButton.setOnClickListener(this);
     }
 
     private final TextWatcher mTextEditorWatcher = new TextWatcher() {
+        int wordCount = 140;
 
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            //enable word limit
+            tvWordCount.setVisibility(View.VISIBLE);
         }
 
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            //This sets a textview to the current length
-            tvWordCount.setText(String.valueOf(wordCount--));
+            System.out.println("start " + start + " before " + before);
+            wordCount = wordCount - count;
+
+
+            //show remaining words for message
+            tvWordCount.setText(String.valueOf(wordCount));
         }
 
         public void afterTextChanged(Editable s) {
@@ -135,9 +155,10 @@ public class SocialActivity extends Activity implements View.OnClickListener {
     private String isCustomMessage(String message) {
 
         if (message.length() > 0) {
-            return message + " " + hashTags;
+            return message + " " + shortHashTags;
         } else {
-            return tweetMsg;
+            return longHashTags;
+
         }
     }
 
