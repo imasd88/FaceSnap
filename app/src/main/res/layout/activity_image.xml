@@ -98,7 +98,6 @@
         android:background="@drawable/layout_btn_bg"
         android:ems="10"
         android:fontFamily="casual"
-        android:hint="@string/hashTags"
         android:inputType="textMultiLine"
         android:maxLength="113"
         android:textColor="#FFFFFF"

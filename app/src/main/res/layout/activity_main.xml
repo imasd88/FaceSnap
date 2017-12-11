@@ -6,7 +6,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#0000"
     tools:context="facesnap.emazdoor.com.facesnap.MainActivity">
 
 
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.1"
-        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteX="59dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <android.support.constraint.Guideline
@@ -24,25 +24,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.9"
-        tools:layout_editor_absoluteX="346dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintGuide_percent="0.93" />
 
     <android.support.constraint.Guideline
         android:id="@+id/horizontalGuide_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="51dp" />
+        app:layout_constraintGuide_percent="0.12" />
 
     <android.support.constraint.Guideline
         android:id="@+id/horizontalGuide_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.41" />
+        app:layout_constraintGuide_percent="0.31" />
 
 
     <android.support.constraint.Guideline
@@ -50,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.64" />
+        app:layout_constraintGuide_percent="0.6" />
 
     <Button
         android:id="@+id/captureButton"
@@ -59,39 +55,22 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/camera_img"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalGuide_3"
-        app:layout_constraintTop_toTopOf="@+id/horizontalGuide_2"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage"
         tools:background="@android:drawable/presence_invisible"
         tools:backgroundTint="@android:color/white"
         tools:ignore="UnusedAttribute" />
-
-    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/profile_image"
-        android:layout_width="161dp"
-        android:layout_height="166dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/exaptec"
-        app:border_width="3dp"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
-        app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
-        app:layout_constraintTop_toTopOf="@+id/horizontalGuide_1"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="56dp" />
 
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="8dp"
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
@@ -100,19 +79,17 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"
         android:textSize="28dp"
         android:visibility="visible"
-        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
-        app:layout_constraintLeft_toRightOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
         app:layout_constraintTop_toBottomOf="@+id/captureButton"
-        app:layout_constraintTop_toTopOf="@+id/horizontalGuide_3"
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="8dp"
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
@@ -122,17 +99,19 @@
         android:textSize="25dp"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
-        app:layout_constraintLeft_toRightOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:shadowColor="#31caf0"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
@@ -143,35 +122,106 @@
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
         app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:ignore="HardcodedText,MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteY="590dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="532dp" />
+        app:layout_constraintGuide_begin="532dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="532dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.84162897" />
+        app:layout_constraintGuide_percent="0.84162897"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="302dp" />
 
     <ImageButton
         android:id="@+id/settingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/settings"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/blank_circle_bg"
+        android:contentDescription=""
         app:layout_constraintBottom_toTopOf="@+id/horizontalGuide_2"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintLeft_toLeftOf="@+id/verticaleGuide_2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@mipmap/settings"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="468dp"
+        android:layout_height="384dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/transparent_bg"
+        android:elevation="5dp"
+        android:foreground="@drawable/rounded"
+        android:padding="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:shape="ring"
+
+        android:useLevel="false"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuide_3"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"
+        app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@drawable/pixelf"
+        tools:ignore="ContentDescription" />
+
 
 </android.support.constraint.ConstraintLayout>
+
+    <!--<?xml version="1.0" encoding="UTF-8"?>--><!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:id="@+id/background"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="#000000"--><!--tools:context="facesnap.emazdoor.com.facesnap.MainActivity">-->
+
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/verticalGuide_1"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--app:layout_constraintGuide_percent="0.1"--><!--tools:layout_editor_absoluteX="39dp"--><!--tools:layout_editor_absoluteY="0dp" />-->
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/verticaleGuide_2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="vertical"--><!--app:layout_constraintGuide_percent="0.9"--><!--tools:layout_editor_absoluteX="346dp"--><!--tools:layout_editor_absoluteY="0dp" />-->
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/horizontalGuide_1"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--app:layout_constraintGuide_percent="0.1"--><!--tools:layout_editor_absoluteX="0dp"--><!--tools:layout_editor_absoluteY="51dp" />-->
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/horizontalGuide_2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--app:layout_constraintGuide_percent="0.41" />-->
+
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/horizontalGuide_3"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--app:layout_constraintGuide_percent="0.64" />-->
+
+    <!--<Button--><!--android:id="@+id/captureButton"--><!--style="@style/Widget.AppCompat.Button.Colored"--><!--android:layout_width="170dp"--><!--android:layout_height="150dp"--><!--android:layout_centerHorizontal="true"--><!--android:layout_centerVertical="true"--><!--android:layout_marginTop="15dp"--><!--android:background="@drawable/camera_img"--><!--android:visibility="visible"--><!--app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"--><!--app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"--><!--app:layout_constraintTop_toBottomOf="@+id/horizontalGuide_3"--><!--app:layout_constraintTop_toTopOf="@+id/horizontalGuide_2"--><!--tools:background="@android:drawable/presence_invisible"--><!--tools:backgroundTint="@android:color/white"--><!--tools:ignore="UnusedAttribute" />-->
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:id="@+id/profile_image"--><!--android:layout_width="161dp"--><!--android:layout_height="166dp"--><!--android:layout_centerHorizontal="true"--><!--android:layout_centerVertical="true"--><!--android:layout_marginTop="0dp"--><!--android:src="@drawable/exaptec"--><!--app:border_width="3dp"--><!--app:layout_constraintHorizontal_bias="0.501"--><!--app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"--><!--app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"--><!--app:layout_constraintTop_toTopOf="@+id/horizontalGuide_1"--><!--tools:layout_editor_absoluteX="225dp"--><!--tools:layout_editor_absoluteY="56dp" />-->
+
+
+    <!--<android.support.v7.widget.AppCompatTextView--><!--android:id="@+id/textView"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="49dp"--><!--android:shadowColor="#31caf0"--><!--android:shadowDx="1.5"--><!--android:shadowDy="1.5"--><!--android:shadowRadius="2.5"--><!--android:text=" Robotics "--><!--android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"--><!--android:textSize="28dp"--><!--android:visibility="visible"--><!--app:layout_constraintHorizontal_bias="0.499"--><!--app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"--><!--app:layout_constraintLeft_toRightOf="@+id/verticalGuide_1"--><!--app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"--><!--app:layout_constraintTop_toBottomOf="@+id/captureButton"--><!--app:layout_constraintTop_toTopOf="@+id/horizontalGuide_3"--><!--tools:ignore="HardcodedText,MissingConstraints,SpUsage" />-->
+
+    <!--<android.support.v7.widget.AppCompatTextView--><!--android:id="@+id/textView2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="42dp"--><!--android:shadowColor="#31caf0"--><!--android:shadowDx="1.5"--><!--android:shadowDy="1.5"--><!--android:shadowRadius="2.5"--><!--android:text="for Work and Play "--><!--android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"--><!--android:textSize="25dp"--><!--android:visibility="visible"--><!--app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"--><!--app:layout_constraintLeft_toRightOf="@+id/verticalGuide_1"--><!--app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"--><!--app:layout_constraintTop_toTopOf="@+id/guideline"--><!--tools:ignore="HardcodedText,MissingConstraints,SpUsage" />-->
+
+    <!--<android.support.v7.widget.AppCompatTextView--><!--android:id="@+id/textView3"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginLeft="8dp"--><!--android:layout_marginRight="8dp"--><!--android:shadowColor="#31caf0"--><!--android:shadowDx="1.5"--><!--android:shadowDy="1.5"--><!--android:shadowRadius="2.5"--><!--android:text=" from Anywhere"--><!--android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView"--><!--android:textSize="25dp"--><!--android:visibility="visible"--><!--app:layout_constraintLeft_toLeftOf="@+id/verticalGuide_1"--><!--app:layout_constraintRight_toLeftOf="@+id/verticaleGuide_2"--><!--app:layout_constraintTop_toTopOf="@+id/guideline2"--><!--tools:ignore="HardcodedText,MissingConstraints,SpUsage"--><!--tools:layout_editor_absoluteY="590dp" />-->
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/guideline"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--app:layout_constraintGuide_begin="532dp" />-->
+
+    <!--<android.support.constraint.Guideline--><!--android:id="@+id/guideline2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!--app:layout_constraintGuide_percent="0.84162897" />-->
+
+    <!--<ImageButton--><!--android:id="@+id/settingsButton"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--app:layout_constraintTop_toTopOf="parent"--><!--app:srcCompat="@mipmap/settings"--><!--android:layout_marginTop="8dp"--><!--android:layout_marginRight="16dp"--><!--app:layout_constraintRight_toRightOf="parent"--><!--android:layout_marginBottom="8dp"--><!--app:layout_constraintBottom_toTopOf="@+id/horizontalGuide_2"--><!--app:layout_constraintVertical_bias="0.048" />-->
+
+    <!--</android.support.constraint.ConstraintLayout>-->
